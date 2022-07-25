@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Fira Code', monospace;
+    
+}
 body {
-    background-color: blue;
+    display: flex;
+    /* flex-direction: column; */
+}
+.text-divs {
+    flex-direction: column;
+}
+.top-text , .main-form , .account {
+    padding: 2em;
+}
+.top-text {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: #D3D3D3;
+}
+.form-heading {
+    font-weight: 800;
+}
+
+.main-form {
+    /* padding: 1.5em; */
+    /* box-sizing: border-box; */
 }
