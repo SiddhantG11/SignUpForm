@@ -18,6 +18,7 @@ body {
 .account {
   padding: 2rem;
 }
+
 .top-text {
   font-weight: bolder;
   font-size: 1.5rem;
@@ -27,18 +28,26 @@ body {
   font-weight: 800;
 }
 .account-button {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 .account {
   background-color: azure;
 }
 input {
-  /* border: #E5E7EB; */
-  border-radius: 5px;
   font-size: 1rem;
 }
+fieldset {
+  border: none;
+}
+.c-a , .c-b , .c-c , .c-d , .c-e , .c-f , .c1 , .c2 , .c3 , .form-container {
+  display: flex;
+}
 .c1 , .c2 , .c3 {
-  padding: 1rem;
+  padding: 1.5rem;
+}
+
+.form-container {
+  flex-direction: column;
 }
 input:focus {
   border: blue;
@@ -53,3 +62,6 @@ button {
   font-size: 1rem;
 }
 
+.c-a , .c-b , .c-c , .c-d , .c-e , .c-f  {
+  flex-direction: column;
+}
