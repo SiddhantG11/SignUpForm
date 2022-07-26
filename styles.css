@@ -5,7 +5,7 @@
   padding: 0;
 }
 :root {
-  font-family: "Fira Code", monospace;
+  font-family: "Fira Code", monospace,sans-serif;
 }
 body {
   display: flex;
@@ -24,7 +24,17 @@ body {
   height: 6em;
   width: 5em;
 }
-.odin{
+.image-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 19%;
+  /* left: 30%; */
+  padding: 1rem;
+  height: 5em;
+  width: 95%;
+  /* margin-right: -10px; */
+}
+.odin {
   color: #fff;
   position: absolute;
   top: 22%;
@@ -41,24 +51,23 @@ a {
   color: #596d48;
   font-weight: 800;
 }
+
 .top-text,
 .main-form,
 .account,
 .account-button {
   padding: 1.5rem;
 }
-
 .top-text {
   font-weight: bolder;
   font-size: 1.5rem;
-  background-color: #d3d3d3;
 }
 .form-heading {
   font-weight: 800;
 }
 
-.account {
-  background-color: azure;
+.account , .top-text {
+  background-color: rgba(211, 211, 211, 0.2);
 }
 input {
   font-size: 1.5rem;
