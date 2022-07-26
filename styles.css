@@ -26,13 +26,11 @@ body {
 }
 .image-overlay {
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   top: 19%;
-  /* left: 30%; */
   padding: 1rem;
   height: 5em;
   width: 95%;
-  /* margin-right: -10px; */
 }
 .odin {
   color: #fff;
@@ -50,6 +48,9 @@ a {
   text-decoration: none;
   color: #596d48;
   font-weight: 800;
+}
+.main-form {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .top-text,
@@ -72,6 +73,7 @@ a {
 input {
   font-size: 1.5rem;
 }
+
 fieldset {
   border: none;
 }
