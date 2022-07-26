@@ -32,6 +32,19 @@ body {
 .account {
   background-color: azure;
 }
+input {
+  /* border: #E5E7EB; */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.c1 , .c2 , .c3 {
+  padding: 1rem;
+}
+input:focus {
+  border: blue;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 button {
   background-color: #596D48;
   color: #fff;
