@@ -40,6 +40,14 @@ body {
   font-size: 3rem;
   padding-left: 15%;
 }
+.credit {
+  color: #fff;
+  position: absolute;
+  bottom: 22%;
+  right: 30%;
+  font-size: 1rem;
+  padding-left: 15%;
+}
 legend,
 .account-text {
   padding-left: 1.5rem;
@@ -65,6 +73,10 @@ a {
 }
 .form-heading {
   font-weight: 800;
+  padding-left: 1rem;
+}
+.top-text {
+  padding-left: 3.5rem;
 }
 
 .account , .top-text {
