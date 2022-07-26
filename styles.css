@@ -9,6 +9,7 @@
 }
 body {
   display: flex;
+  overflow: hidden;
 }
 .text-divs {
   flex-direction: column;
@@ -44,11 +45,10 @@ fieldset {
 }
 .c1 , .c2 , .c3 {
   padding: 1.5rem;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.form-container {
-  flex-direction: column;
-}
 input:focus {
   border: blue;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);

@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!--  -->
     <div class="image">
-      <img src="./photo.jpg" alt="leaves" />
+      <img src="./photo.jpg" alt="leaves"/>
     </div>
     <div class="text-divs">
       <div class="top-text">
@@ -25,36 +24,36 @@
         <form>
           <fieldset class="form-container">
             <legend><span class="form-heading">Let's do This!</span></legend>
-            <div class="c1">
-              <div class="c-a">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="name" placeholder="John" required/>
+            <div class="input-container">
+              <div class="c1">
+                <div class="c-a">
+                  <label for="first_name">First Name</label>
+                  <input type="text" id="first_name" name="name" placeholder="John" required/>
+                </div>
+                <div class="c-b">
+                  <label for="last_name">Last Name</label>
+                  <input type="text" id="last_name" name="name" placeholder="Doe"/>
+                </div>
               </div>
-              <div class="c-b">
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="name" placeholder="Doe"/>
+              <div class="c2">
+                <div class="c-c">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="abc@example.com" required/>
+                </div>
+                <div class="c-d">
+                  <label for="phone_number">Phone Number</label>
+                  <input type="tel" id="phone_number" name="phone_number"/>
+                </div>
               </div>
-            </div>
-
-            <div class="c2">
-              <div class="c-c">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="abc@example.com" required/>
-              </div>
-              <div class="c-d">
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number"/>
-              </div>
-            </div>
-
-            <div class="c3">
-              <div class="c-e">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required/>
-              </div>
-              <div class="c-f">
-                <label for="password_1">Password</label>
-                <input type="password" name="password" id="password_1" required/>
+              <div class="c3">
+                <div class="c-e">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" required/>
+                </div>
+                <div class="c-f">
+                  <label for="confirm_password">Confirm Password</label>
+                  <input type="password" name="password" id="confirm_password" required/>
+                </div>
               </div>
             </div>
           </fieldset>
