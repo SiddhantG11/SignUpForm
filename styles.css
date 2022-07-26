@@ -16,7 +16,7 @@ body {
 .top-text,
 .main-form,
 .account {
-  padding: 2em;
+  padding: 2rem;
 }
 .top-text {
   font-weight: bolder;
@@ -26,5 +26,17 @@ body {
 .form-heading {
   font-weight: 800;
 }
-
+.account-button {
+  padding: 1.5rem;
+}
+.account {
+  background-color: azure;
+}
+button {
+  background-color: #596D48;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
 
